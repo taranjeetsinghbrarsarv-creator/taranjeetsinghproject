@@ -471,10 +471,10 @@ function bookSlot(id){
 
   location.reload();
 }
-  if (!localStorage.getItem("loggedIn")) {
-    alert("Please login first!");
-    window.location.href = "index.html";
-  }
+  // if (!localStorage.getItem("loggedIn")) {
+  //   alert("Please login first!");
+  //   window.location.href = "index.html";
+  // }
   
   if (localStorage.getItem("isLoggedIn") !== "true") {
     alert("🔒 Please login to access parking slots.");
@@ -491,3 +491,4 @@ function bookSlot(id){
 
 </body>
 </html>
+
